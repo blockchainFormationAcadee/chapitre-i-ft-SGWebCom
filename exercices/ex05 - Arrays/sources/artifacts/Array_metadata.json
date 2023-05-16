@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "index",
+						"type": "uint8"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "index",
+						"type": "uint8"
+					},
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercices/ex05 - Arrays/sources/Array.sol": "Array"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercices/ex05 - Arrays/sources/Array.sol": {
+			"keccak256": "0x937f190933536df5e44f53a2d0f6cfec4ada43e2165cc4ff88ed169ee4fc06a5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ea4c9d7cd1ae17ae0806179e1aaf18fd8b4b6b1b6991f249c5000593ce15d3a3",
+				"dweb:/ipfs/QmSCeLwz44XVRp5SFFU7LA2VQ2KTGvXsfLdhJwTc8mdJqw"
+			]
+		}
+	},
+	"version": 1
+}

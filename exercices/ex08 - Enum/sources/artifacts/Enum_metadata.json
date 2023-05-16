@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getAddressType",
+				"outputs": [
+					{
+						"internalType": "enum Enum.UserType",
+						"name": "type_",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "maps",
+				"outputs": [
+					{
+						"internalType": "enum Enum.UserType",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "enum Enum.UserType",
+						"name": "uType",
+						"type": "uint8"
+					}
+				],
+				"name": "setAddressType",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercices/ex08 - Enum/sources/Enum.sol": "Enum"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercices/ex08 - Enum/sources/Enum.sol": {
+			"keccak256": "0x81c0d94e100a3a3bc149bc43b2a8e9dec8af3e9b01efee0df11c78223618d5af",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a00da8d6d11000bf31bf3d53be6564d1eb6c0a0cbe2c9faad1870bd5fa081bee",
+				"dweb:/ipfs/QmZip5h28s7xWuMWpiFx3KwzNqqVkDfgQZu5S8xVobEtng"
+			]
+		}
+	},
+	"version": 1
+}

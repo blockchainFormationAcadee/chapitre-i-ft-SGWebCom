@@ -14,4 +14,17 @@ contract Array {
         myArray[index] = value;
     }
 
+    function incrementArrayFor() public {
+        for(uint i = 0 ; i < myArray.length ; ++i)
+            ++myArray[i];
+    }
+
+    function incrementArrayWhile() public {
+        uint i = 0;
+        while (i < myArray.length) {
+            ++myArray[i];
+            ++i;
+        }
+    }
+
 }

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercices/ex02 - Variables/sources/Variables.sol": "Variables"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercices/ex02 - Variables/sources/Variables.sol": {
+			"keccak256": "0x443ed645189f4f5d112b27379aa7c9d8ff5a796674fe49b23511e49239241c25",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://05c8fdac18f94c64300d81664fed824d7efcd17d22bd7734f11292433f717de9",
+				"dweb:/ipfs/QmeUN5A4f4AEKNDJFeG8vHVX7dRGnJGdD6JFG3LdprMrKF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum RushChapterI.Dish",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "dishQuantity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum RushChapterI.Dish",
+						"name": "dish",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "fillDish",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "total_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "added_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum RushChapterI.Dish",
+						"name": "dish",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "getDish",
+				"outputs": [
+					{
+						"internalType": "enum RushChapterI.Dish",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "total_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "quantityMax",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalQuantity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercices/rush/Distrib.sol": "RushChapterI"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercices/rush/Distrib.sol": {
+			"keccak256": "0x95c55b0fecbccbf4fc72a6e3a663814a62b0d7f8cc0413227733923b424f71fa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6e6262ed3a74b3bf851861aa8a7002738b312243017dbd2bd6c50f781ef824a4",
+				"dweb:/ipfs/QmRUk1tTbQEGhA7MCzqDfazpnuqEcP6io6dhzHsDvBbPAB"
+			]
+		}
+	},
+	"version": 1
+}

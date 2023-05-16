@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "WhatIsTheAnswerToLife",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "answerToLife_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercices/ex03 - Fonctions/sources/Function.sol": "Function"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercices/ex03 - Fonctions/sources/Function.sol": {
+			"keccak256": "0x8265195f2b98f959a468002fe6bcd1e0fdb0b3eb61b952960ea3d4abf5422ff3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5c935ddeb9b2654674ef96cee53e0293bbcaf19febe4464aa410b2c8d038c041",
+				"dweb:/ipfs/QmPg6EiseGxh2fhK2y6PeukwrQ6niKJEMfZn9Pc9NjJnvh"
+			]
+		}
+	},
+	"version": 1
+}

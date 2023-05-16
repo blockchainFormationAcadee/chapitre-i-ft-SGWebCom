@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "answerToLife",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wrongAnswerToLife",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercices/ex04 - Visibilités/sources/Visibility.sol": "Visibility"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercices/ex04 - Visibilités/sources/Visibility.sol": {
+			"keccak256": "0xd299ed6adfd8778f81e3eed08906de03cf31c70baa33a14568ffcff37ff52037",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4664f1adb5093aeb782a1ed50579ffb419d968d202b9b77988ea930442c08266",
+				"dweb:/ipfs/QmTy9GdG3iX7KhdW2E4gttovw47vwQYjKMk8UaXmErtz6a"
+			]
+		}
+	},
+	"version": 1
+}
